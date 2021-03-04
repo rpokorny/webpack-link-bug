@@ -1,0 +1,9 @@
+{
+  "name": "dep",
+  "version": "1.0.0",
+  "description": "This module is a dependency of the app module, referred to via a symlink",
+  "main": "index.js",
+  "author": "Ross Pokorny",
+  "license": "MIT",
+  "devDependencies": {}
+}
