@@ -12,3 +12,8 @@ for this bug. If that line is removed or the value changed to `true`, the reload
 It is my understanding however that setting `resolve.symlinks` to false is a valid thing to do which should not
 cause this behavior. In the non-proof-of-concept application where this issue was discovered, `resolve.symlinks`
 needs to be disabled in order to prevent multiples copies of react from being included into the bundle.
+
+## Instructions
+
+Run `yarn install` in both the `dep` and `app` directories. Then run `yarn start` in the `app` directory.
+The application can then be accessed at http://localhost:4043/
